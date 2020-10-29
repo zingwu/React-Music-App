@@ -1,9 +1,14 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { HeaderBar, SiderBar, PageContainer } from './components'
 
-class App extends Component {
-  render() {
-    return <div />
-  }
+const App = () => {
+  return (
+    <>
+      <HeaderBar />
+      <SiderBar />
+      <PageContainer />
+    </>
+  )
 }
 
 export default App
